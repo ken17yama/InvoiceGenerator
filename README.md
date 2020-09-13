@@ -18,6 +18,14 @@
 	
 	```
 
+### Node.jsのインストール
+```
+docker-compose up -d
+docker-compose exec app bash
+curl -sL https://deb.nodesource.com/setup_10.x | bash -
+apt-get install -y nodejs
+```
+
 ### 環境の再構築
 - GitHubからリポジトリをクローン
 	```
