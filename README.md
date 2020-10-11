@@ -1,10 +1,15 @@
-# laravel-on-docker
+# 請求書ジェネレーター
+
+## 内容
+請求書データをPDFで出力する
+
+## タスク
+- [ ] PDFを出力する
+- [ ] 外部フォントを設定する
+- [ ] 
 
 ## 参考
-- [【初心者向け】20分でLaravel開発環境を爆速構築するDockerハンズオン](https://qiita.com/ucan-lab/items/56c9dc3cf2e6762672f4)
-
-## 再構築方法
-上記の参考ページより引用メモ
+- [LaravelでPDF出力](http://spacetimebubble.net/blog/2019/04/07/laravel%E3%81%A7pdf%E5%87%BA%E5%8A%9B/)
 
 ### Docker環境の破棄
 - コンテナの停止、ネットワーク・名前付きボリューム・コンテナイメージを削除
@@ -43,3 +48,4 @@ apt-get install -y nodejs
 	php artisan migrate
 	```
 	→[http://127.0.0.1:10080](http://127.0.0.1:10080)で確認できるはず！！
+# InvoiceGenerator
