@@ -1,3 +1,5 @@
+build:
+	docker-compose up -d --build
 up:
 	docker-compose up -d
 down:
@@ -10,3 +12,5 @@ app:
 	docker-compose exec app bash
 delete:
 	docker-compose down --volumes --rmi all
+ps:
+	docker-compose ps
